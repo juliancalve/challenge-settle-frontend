@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.card {
+    &__container {
+        max-height: 85vh;
+        overflow-y: auto;
+        background-color: $app-color-primary;
+    }
+
+    color: $app-color-secondary;
+}

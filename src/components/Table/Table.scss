@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+
+.table {
+    &__container {
+        max-height: 40vh;
+        overflow-y: auto;
+    }
+
+    &__tr {
+        text-transform: capitalize;
+    }
+}
+
