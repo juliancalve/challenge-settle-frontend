@@ -101,7 +101,7 @@ const RateForm = ( { rates, onGetSavedRates }: any ): JSX.Element => {
                 </div>
                 <div className='mb-3 col-sm-12 col-md-5'>
                     <label className='form-label'>Fee amount</label>
-                    <input onChange={ handleChange } type='number' className='form-control is-disabled' readOnly name='feeAmount' value={ form.feeAmount } disabled/>
+                    <input onChange={ handleChange } type='number' className='form-control' readOnly name='feeAmount' value={ form.feeAmount } disabled/>
                 </div>
             </div>
             <div className='row d-flex justify-content-between'>
@@ -113,7 +113,7 @@ const RateForm = ( { rates, onGetSavedRates }: any ): JSX.Element => {
                 
                 <div className='mb-3 col-sm-12 col-md-5'>
                     <label className='form-label'>Rate fee applied</label>
-                    <input type='number' className='form-control is-disabled' readOnly name='rateFeeApplied' value={ form.rateFeeApplied } disabled/>
+                    <input type='number' className='form-control' readOnly name='rateFeeApplied' value={ form.rateFeeApplied } disabled/>
                 </div>
             </div>
             
